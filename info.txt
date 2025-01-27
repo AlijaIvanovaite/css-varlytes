@@ -7,3 +7,56 @@ font-style: normal;
 font-weight: 800;
 line-height: 130%; /* 65px */
 -----------------------------------------------
+
+
+
+
+
+
+.name{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skaiciai{
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+}
+.text{
+    color: rgba(47, 53, 63, 0.70);
+    font-family: ;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+}
+.img1{
+    width: 540px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.img2{
+    width: 540px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
+}
