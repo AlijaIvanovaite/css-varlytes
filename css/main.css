@@ -114,3 +114,28 @@ header{
     font-weight: 700;
     line-height: 24px; /* 100% */
 }
+.nava{
+    color: var(--main-white, #FFF);
+    font-family: "Neue Machina";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.kalba{
+    color: var(--main-white, #FFF);
+    font-family: "Neue Machina";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.Contact{
+    width: 254px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--main-blue, #2E2BD0);
+}
