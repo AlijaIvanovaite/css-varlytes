@@ -1,0 +1,22 @@
+header{
+    width: 1920px;
+    height: 975px;
+    flex-shrink: 0;
+    background-image: url(../imga/Img.png);
+    /* background-attachment: fixed;*/
+    background-size: cover;
+    padding: 30px;
+}
+.taskas{
+    width: 14.698px;
+    height: 15.25px;
+    flex-shrink: 0;
+    stroke-width: 7.625px;
+    stroke: var(--main-white, #FFF);
+}
+.it{
+    width: 57.766px;
+    height: 42.361px;
+    flex-shrink: 0;
+    fill: var(--main-white, #FFF);
+}
