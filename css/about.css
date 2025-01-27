@@ -4,3 +4,27 @@
     height: 40px;
     flex-shrink: 0;
 }
+.main-menu{
+    display: flex;
+    width: 571px;
+    height: 39px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.our-services{
+    width: 98px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid var(--main-blue, #2E2BD0);
+}
