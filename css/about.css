@@ -12,8 +12,10 @@
     justify-content: space-evenly;
 }
 .block{
-    align-items: center;
+    display: flex;
+
     gap: 10px;
+    align-items: center;
     color: var(--main-blue, #2E2BD0);
     font-family: "Neue Machina";
     font-size: 20px;
