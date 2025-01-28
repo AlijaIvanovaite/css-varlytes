@@ -8,10 +8,10 @@
     display: flex;
     width: 571px;
     height: 39px;
-    align-items: center;
+    align-items:center;
+    justify-content: space-evenly;
 }
 .block{
-    display: flex;
     align-items: center;
     gap: 10px;
     color: var(--main-blue, #2E2BD0);
@@ -21,13 +21,17 @@
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
+    width: 98px;
+    height: 39px;
+    border-radius: 10px;
+    border: 1px solid var(--main-blue, #2E2BD0);
 }
 .our-services{
+    display: flex;
+    align-items: center;
     width: 98px;
     height: 39px;
     flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid var(--main-blue, #2E2BD0);
 }
 
 
@@ -58,7 +62,7 @@
 }
 .text{
     color: rgba(47, 53, 63, 0.70);
-    font-family: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
