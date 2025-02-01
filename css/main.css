@@ -161,6 +161,56 @@ nav{
 
 
 /* What are our goals? */
+.name{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.number{
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.minimame{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+}
+.text{
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+    width: 440px;
+}
+.block_1.png{
+    width: 540px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 70px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.text2x{
+    color: rgba(47, 53, 63, 0.70);
+    width: 710px;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+}
+
 
 /* Why choose us? */
 
