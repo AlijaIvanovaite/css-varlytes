@@ -1,11 +1,3 @@
-Title:
-------
-color: var(--main-white, #FFF);
-font-family: "Neue Machina";
-font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: 130%; /* 65px */
 -----------------------------------------------
 
 

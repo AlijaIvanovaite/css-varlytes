@@ -82,7 +82,7 @@ vertical-align:middle;
 
 /* ---------------------------------------------------------------- */
 
-
+/* heder */
 header{
     width: 1920px;
     height: 975px;
@@ -92,6 +92,23 @@ header{
     background-size: cover;
     padding: 30px;
 }
+nav{
+    width: 100%;
+    height: 119px;
+    position: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    position: flex;
+}
+.nav{
+    position: flex;
+}
+.nav2{
+    position: flex;
+}
+
 .taskas{
     width: 14.698px;
     height: 15.25px;
@@ -139,3 +156,22 @@ header{
     border-radius: 10px;
     background: var(--main-blue, #2E2BD0);
 }
+
+/* main */
+
+
+/* What are our goals? */
+
+/* Why choose us? */
+
+/* How we work? */
+
+/* Used technologies */
+
+/* Industries */
+
+/* Get in touch with us */
+
+
+
+/* footer */
