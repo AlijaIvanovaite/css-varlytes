@@ -84,7 +84,8 @@ vertical-align:middle;
 
 /* heder */
 header{
-    width: 1920px;
+    /* width: 100vw; */
+    width: 100%;
     height: 975px;
     flex-shrink: 0;
     background-image: url(../imga/index/heder.png);
@@ -92,23 +93,77 @@ header{
     background-size: cover;
     padding: 30px;
 }
+
 nav{
     width: 100%;
     height: 119px;
-    position: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* position: absolute; */
+    /* display: grid;
+    grid-template-columns: repeat(15, 1fr); */
+    display: flex;
+    justify-content:space-between;
 }
+/* navigacija */
 .logo{
-    position: flex;
+    color: var(--main-white, #FFF);
 }
 .nav{
-    position: flex;
+    color: var(--main-white, #FFF);
 }
 .nav2{
-    position: flex;
-}
 
+    width: 521px;
+    height: 119px;
+
+    /* position: flex;
+    justify-content:space-around; */
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+}
+/* nav2 */
+.kalba{
+    color: var(--main-white, #FFF);
+    font-family: "Neue Machina";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    grid-area: 2/2/3/3;
+}
+.Contact{
+    position: flex;
+    justify-content:center;
+    border-radius: 10px;
+    background: var(--main-blue, #2E2BD0);
+    width: 254px;
+    height: 59px;
+    flex-shrink: 0;
+    text-align: center;
+    display: grid;
+    grid-area: 2/5/3/7;
+
+    color: var(--main-white, #FFF);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    text-decoration: none;
+}
+.nav2 img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+/* ------ */
 .taskas{
     width: 14.698px;
     height: 15.25px;
@@ -139,23 +194,28 @@ nav{
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
+
+    text-decoration: none;
 }
-.kalba{
+
+#mig{
+    width: 160px;
     color: var(--main-white, #FFF);
+    text-align: center;
     font-family: "Neue Machina";
-    font-size: 24px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 130%; /* 39px */
     text-transform: uppercase;
+
+    width: 280px;
+    height: 280px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
-.Contact{
-    width: 254px;
-    height: 59px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: var(--main-blue, #2E2BD0);
-}
+
+
 
 /* main */
 
