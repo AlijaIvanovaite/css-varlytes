@@ -205,7 +205,7 @@ nav{
     height: 500px;
     flex-shrink: 0;
     border-radius: 70px;
-background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
 }
 .text2x{
     color: rgba(47, 53, 63, 0.70);
