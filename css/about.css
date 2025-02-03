@@ -1,9 +1,10 @@
 @font-face {
-    font-family: Gilroy-medium;
-    src: url("/fonts/Gilroy/Gilroy-Medium.ttf");
+    font-family: Gilroy-light;
+    src: url("/fonts/Gilroy/Gilroy-Light.ttf");
 }
+
 @font-face {
-    font-family: Neue Machina;
+    font-family: Neue Machina-medium;
     src: url("/fonts/Neue-Machina/PPNeueMachina-Regular.otf");
 }
 .logo {
@@ -36,6 +37,7 @@
     height: 39px;
     border-radius: 10px;
     border: 1px solid var(--main-blue, #2E2BD0);
+    padding: 0px 0px 0px 30px;
 }
 
 .our-services {
@@ -44,9 +46,11 @@
     width: 98px;
     height: 39px;
     flex-shrink: 0;
+    font-family: Neue Machina;
 }
-
-
+.job-openings{
+    font-family: Neue Machina;
+}
 .name {
     color: var(--main-light, #2F353F);
     font-family: "Neue Machina";
@@ -74,10 +78,17 @@
     line-height: 48px;
 }
 h1{
-    
+    font-family: "Neue Machina-medium";
+    font-weight: normal;
 }
-.paragraph {
-    font-family: Gilroy-medium;
+.big-paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.paragraph,.para2{
+    font-family: Gilroy-light;
+    flex-shrink: 1;
 }
 
 .text {
