@@ -293,7 +293,7 @@ nav{
 .minimame{
     color: var(--main-light, #2F353F);
     font-family: "Neue Machina";
-    font-size: 32px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400px;
     line-height: 150%; /* 48px */
