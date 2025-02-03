@@ -166,7 +166,7 @@ nav{
     font-family: "Neue Machina";
     font-size: 60px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: normal;
 }
 .number{
@@ -174,15 +174,21 @@ nav{
     font-family: "Neue Machina";
     font-size: 40px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: normal;
 }
+
+.cube1, .cube2, .cube3, .cube4{
+    border-radius: 70px;
+    border: 1px solid #95989D;
+}
+
 .minimame{
     color: var(--main-light, #2F353F);
     font-family: "Neue Machina";
     font-size: 32px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 150%; /* 48px */
 }
 .text{
@@ -190,7 +196,7 @@ nav{
     font-family: Gilroy;
     font-size: 30px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 150%; /* 45px */
     width: 440px;
 }
@@ -207,7 +213,7 @@ background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
     font-family: Gilroy;
     font-size: 30px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 150%; /* 45px */
 }
 
