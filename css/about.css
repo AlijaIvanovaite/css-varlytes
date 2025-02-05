@@ -51,6 +51,11 @@
 .job-openings{
     font-family: "Neue Machina-medium";
 }
+.big-selection .language-selection{
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
 img.selection{
     width: 20px;
     height: 20px;
@@ -64,7 +69,7 @@ img.selection{
     font-family: "Neue Machina";
     font-size: 60px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: normal;
 }
 
