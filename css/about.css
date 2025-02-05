@@ -27,7 +27,7 @@
     gap: 10px;
     align-items: center;
     color: var(--main-blue, #2E2BD0);
-    font-family: "Neue Machina";
+    font-family: "Neue Machina-medium";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -46,10 +46,18 @@
     width: 98px;
     height: 39px;
     flex-shrink: 0;
-    font-family: Neue Machina;
+    font-family:"Neue Machina-medium";
 }
 .job-openings{
-    font-family: Neue Machina;
+    font-family: "Neue Machina-medium";
+}
+img.selection{
+    width: 20px;
+    height: 20px;
+    left: 37px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 .name {
     color: var(--main-light, #2F353F);
