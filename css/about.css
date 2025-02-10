@@ -158,10 +158,4 @@ h3{
     font-weight: 400;
     line-height: 150%; /* 45px */
 }
-.img2 {
-    width: 540px;
-    height: 200px;
-    flex-shrink: 0;
-    border-radius: 70px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
-}
+
