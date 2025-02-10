@@ -74,15 +74,6 @@ img.selection{
     line-height: normal;
 }
 
-.skaiciai {
-    color: var(--main-blue, #2E2BD0);
-    font-family: "Neue Machina";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .Who-we-are {
     color: var(--main-light, #2F353F);
     font-family: "Neue Machina";
@@ -132,7 +123,21 @@ h3{
     background-image: url('../imga/about/Our_Team.png');
     background-repeat: no-repeat;
 }
-
+.all-blocks{
+    display: flex;
+    justify-content: center;
+}
+.block1{
+    
+}
+.skaiciai {
+    color: var(--main-blue, #2E2BD0);
+    font-family: "Neue Machina";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .img2 {
     width: 540px;
     height: 200px;
