@@ -82,6 +82,14 @@ vertical-align:middle;
 
 /* ---------------------------------------------------------------- */
 
+.tarpas{
+    height: 50px;
+}
+.tarpas{
+    height: 220px;
+}
+
+
 /* heder */
 header{
     /* width: 100vw; */
@@ -250,7 +258,7 @@ h1{
 
 /* main */
 main{
-    width: 100%;
+    /* width: 100%; */
     height: 7508px;
     flex-shrink: 0;
     padding: 150px;
@@ -276,7 +284,7 @@ main{
     width: 1620;
     display: grid;
     grid-template-columns: repeat(6, 270px);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 500px);
 }
 /* conterner */
 .cube1, .cube2, .cube3, .cube4{
@@ -312,12 +320,13 @@ main{
     flex-shrink: 0;
     border-radius: 70px;
 
+    background-image: url(../imga/index/Block_1.png);
     display: grid;
     grid-area: 1/5/2/7;
 }
 .block_5{
     border-radius: 70px;
-    background-image: url(../imga/index/Block_1.png);
+    background-image: url(../imga/index/Block_5.png);
     /* width: 811px; */
     /* height: 500px; */
     /* flex-shrink: 0; */
@@ -417,6 +426,30 @@ main{
 /* Why choose us? */
 
 /* How we work? */
+.How_work{
+    /* width: 1920px; */
+    height: 971px;
+}
+
+
+
+
+#rut{
+    width: 160px;
+    height: 78px;
+    padding: 101px 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    color: var(--main-light, #2F353F);
+    text-align: center;
+    font-family: "Neue Machina";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 39px */
+    text-transform: uppercase;
+}
 
 /* Used technologies */
 
@@ -424,6 +457,12 @@ main{
 
 /* Get in touch with us */
 
+.Get_us{
+    /* width: 1860px; */
+    height: 1004px;
+    /* flex-shrink: 0; */
+    border-radius: 70px;
+    background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
 
-
-/* footer */
+    margin: 30px;
+}

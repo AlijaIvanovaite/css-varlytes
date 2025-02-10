@@ -1,0 +1,44 @@
+footer{
+    height: 564px;
+    margin: 0 30px 50px 30px;
+
+}
+.itt{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.our{
+    width: 390px;
+    height: 283px;
+    flex-shrink: 0;
+}
+.ourr{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.in{
+    color: var(--main-blue, #2E2BD0);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.parasimas{
+    color: rgba(47, 53, 63, 0.50);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
