@@ -126,17 +126,37 @@ h3{
 .all-blocks{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.block1{
-    
+.block1,.block2,.block3{
+    display: flex;
+    align-items: center;
+    width: 411px;
+    height: 368px;
+    flex-wrap: wrap;
 }
 .skaiciai {
     color: var(--main-blue, #2E2BD0);
-    font-family: "Neue Machina";
-    font-size: 40px;
+    font-family: "Neue Machina-medium";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+}
+.title{
+    font-family: "Neue Machina-medium";
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 150%; /* 90px */
+}
+.text1{
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy-light;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
 }
 .img2 {
     width: 540px;
