@@ -1,4 +1,4 @@
-/*------------------------- Who we are?--------------------------------*/
+/* ----------------------External sources------------------------------ */
 @font-face {
     font-family: Gilroy-light;
     src: url("/fonts/Gilroy/Gilroy-Light.ttf");
@@ -8,6 +8,7 @@
     font-family: Neue Machina-medium;
     src: url("/fonts/Neue-Machina/PPNeueMachina-Regular.otf");
 }
+/*------------------------- Who we are?--------------------------------*/
 .logo {
     display: flex;
     width: 39px;
@@ -135,6 +136,14 @@ h3{
     height: 368px;
     flex-wrap: wrap;
 }
+.block2{
+    border-left-width: 1px;
+    border-left-color: var(--main-light, #2E2BD0);
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-right-color: var(--main-light, #2E2BD0);
+    border-right-style: solid;
+}
 .skaiciai {
     color: var(--main-blue, #2E2BD0);
     font-family: "Neue Machina-medium";
@@ -157,6 +166,14 @@ h3{
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 45px */
+}
+/* ---------------------IT support group through the years----------------------- */
+.IT{
+    width: 30%;
+    height: 50%;
+}
+.ITtext{
+    
 }
 .img2 {
     width: 540px;
