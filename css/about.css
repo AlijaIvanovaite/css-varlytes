@@ -1,4 +1,4 @@
-/*------------------------- Who we are?--------------------------------*/
+/* ----------------------External sources------------------------------ */
 @font-face {
     font-family: Gilroy-light;
     src: url("/fonts/Gilroy/Gilroy-Light.ttf");
@@ -8,6 +8,7 @@
     font-family: Neue Machina-medium;
     src: url("/fonts/Neue-Machina/PPNeueMachina-Regular.otf");
 }
+/*------------------------- Who we are?--------------------------------*/
 .logo {
     display: flex;
     width: 39px;
@@ -126,22 +127,52 @@ h3{
 .all-blocks{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.block1{
-    
+.block1,.block2,.block3{
+    display: flex;
+    align-items: center;
+    width: 411px;
+    height: 368px;
+    flex-wrap: wrap;
+}
+.block2{
+    border-left-width: 1px;
+    border-left-color: var(--main-light, #2E2BD0);
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-right-color: var(--main-light, #2E2BD0);
+    border-right-style: solid;
 }
 .skaiciai {
     color: var(--main-blue, #2E2BD0);
-    font-family: "Neue Machina";
-    font-size: 40px;
+    font-family: "Neue Machina-medium";
+    font-size: 60px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: normal;
 }
-.img2 {
-    width: 540px;
-    height: 200px;
-    flex-shrink: 0;
-    border-radius: 70px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #D9D9D9;
+.title{
+    font-family: "Neue Machina-medium";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 90px */
 }
+.text1{
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy-light;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+}
+/* ---------------------IT support group through the years----------------------- */
+.IT{
+    width: 30%;
+    height: 50%;
+}
+.ITtext{
+    
+}
+
