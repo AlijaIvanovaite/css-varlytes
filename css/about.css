@@ -169,10 +169,27 @@ h3{
 }
 /* ---------------------IT support group through the years----------------------- */
 .IT{
-    width: 30%;
-    height: 50%;
-}
-.ITtext{
-    
+    width: 540px;
+    height: 180px;
 }
 
+.ITtext{
+    font-family: "Gilroy-light";
+    top: 230px;
+    left: 900px;
+    width: 715px;
+    height: 108px;
+}
+.history-block{
+    width: 1860px;
+    height: 757px;
+    border-radius: 70px;
+    background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
+}
+.dates{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 5%;
+}
