@@ -213,3 +213,9 @@ h3{
     background: rgba(255, 255, 255, 0.30);
 }
 /* -----------------------------What our clients say about us?------------------------------- */
+.button2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
