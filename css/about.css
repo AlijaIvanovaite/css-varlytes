@@ -183,6 +183,7 @@ h3{
 .history-block{
     width: 1860px;
     height: 757px;
+    flex-shrink: 0;
     border-radius: 70px;
     background: linear-gradient(66deg, #2E2BD0 -67.89%, #7876F2 125.28%);
 }
@@ -192,4 +193,23 @@ h3{
     width: 100%;
     justify-content: space-around;
     padding-top: 5%;
+    font-family: Neue Machina-medium;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.50);
 }
+.dates p:nth-child(3){
+    color: var(--main-white, #FFF);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.line-1,.line-2,.line-3{
+    width: 1px;
+    height: 110px;
+    background: rgba(255, 255, 255, 0.30);
+}
+/* -----------------------------What our clients say about us?------------------------------- */
