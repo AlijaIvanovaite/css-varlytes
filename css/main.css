@@ -394,14 +394,7 @@ main{
     line-height: normal;
 }
 
-
-
-
-
-
-
-
-.mininame{
+.minimame{
     color: var(--main-light, #2F353F);
     font-family: "Neue Machina";
     font-size: 30px;
@@ -553,7 +546,37 @@ main{
     text-transform: uppercase;
 }
 
+
 /* Used technologies */
+.name2{
+    color: var(--main-light, #2F353F);
+    font-family: "Neue Machina";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pasirinktas{
+    width: 220px;
+    color: var(--main-light, #2F353F);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Neue Machina";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 33.8px */
+}
+
+.nepasirinktas{
+    width: 162px;
+    color: rgba(47, 53, 63, 0.70);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+}
 
 /* Industries */
 
