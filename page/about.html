@@ -25,20 +25,21 @@
         <div class="block">about</div>
         <div class="our-services">our services</div>
         <div class="job-openings">job openings</div>
-      </div>
-      <div class="big-selection">
-        <div class="language-selection">
+        <div class="big-selection">
+          <div class="language-selection">
           <p class="language">
             EN
           </p>
           <img class="selection" src="../imga/index/arrow-square-down.png" alt="more options">
-        </div>
-        <div class="button">
-          <p class="contact-us">CONTACT US
-            <img src="../imga/index/send.png" alt="">
-          </p>
+          </div>
+          <div class="button">
+            <p class="contact-us">CONTACT US
+            <img class="send" src="../imga/index/send.png" alt="">
+            </p>
+          </div>
         </div>
       </div>
+     
     </nav>
   </header>
   <hr>
@@ -168,16 +169,18 @@
     <section class="What-our-clients-say-about-us">
       <h3>What our clients say about us</h3>
       <div class="feedbacks">
-        <div class="Daniel-Smith">
-          <img src="../imga/about/Daniel_Smith.png" alt="">
-          <p>Daniel Smith</p>
-          <p>Position & Company Title</p>
-          <p class="Daniel-text">"They are very professional and are always interested in understanding the problem that
-            we are solving."
-          </p>
-          <div class="button1">
-            <p>VIEW THE PROJECT</p>
-            <img src="../imga/index/send.png" alt="send">
+        <div class="daniel-block">
+          <div class="Daniel-Smith">
+            <img src="../imga/about/Daniel_Smith.png" alt="">
+            <p>Daniel Smith</p>
+            <p>Position & Company Title</p>
+            <p class="Daniel-text">"They are very professional and are always interested in understanding the problem that
+              we are solving."
+            </p>
+            <div class="button1">
+              <p>VIEW THE PROJECT</p>
+              <img src="../imga/index/send.png" alt="send">
+            </div>
           </div>
         </div>
         <div class="Tom-Peters">
@@ -222,7 +225,8 @@
         <input type="tel" name="phone-number" id="phone" placeholder="Enter your phone number" required>
         <label for="Description"></label>
         <textarea rows="3" cols="20" name="description" id="description" placeholder="Describe your project" required></textarea>
-        <input type="text" name="file" id="file" placeholder="Upload file (max file size is 30 MB)" readonly>
+        <label for="file">Upload file (max file size is 30 MB)</label>
+        <input type="file" name="file-upload" id="ufile">
         <label for="submit"></label>
         <input type="submit" name="submit" id="submit" value="SUBMIT">
       </form>

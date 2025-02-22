@@ -1,4 +1,4 @@
-/* ----------------------External sources------------------------------ */
+/* ------------------------------------External sources------------------------------ */
 @font-face {
     font-family: Gilroy-light;
     src: url("/fonts/Gilroy/Gilroy-Light.ttf");
@@ -8,7 +8,8 @@
     font-family: Neue Machina-medium;
     src: url("/fonts/Neue-Machina/PPNeueMachina-Regular.otf");
 }
-/*------------------------- Who we are?--------------------------------*/
+/*------------------------------------Header part--------------------------------*/
+/* body{background-color: black;} */
 .logo {
     display: flex;
     width: 39px;
@@ -41,7 +42,36 @@
     border: 1px solid var(--main-blue, #2E2BD0);
     padding: 0px 0px 0px 30px;
 }
-
+.big-selection{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex baseline;
+}
+.language-selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.language{
+    font-family: Neue Machina-medium;
+}
+.contact-us{
+    display: flex;
+    width: 170px;
+    height: 39px;
+    background-color: #2E2BD0;
+    align-items: center;
+    justify-content: center;
+    font-family: "Neue Machina-medium";
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    gap: 0.5rem;
+}
+.send{
+    height: 1rem;
+}
 .our-services {
     display: flex;
     align-items: center;
@@ -61,11 +91,13 @@
 img.selection{
     width: 20px;
     height: 20px;
-    left: 37px;
-    gap: 0px;
-    opacity: 0px;
-
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-origin: content-box;
+    background-size: 30px;
 }
+
 .name {
     color: var(--main-light, #2F353F);
     font-family: "Neue Machina";
@@ -74,7 +106,7 @@ img.selection{
     font-weight: 400px;
     line-height: normal;
 }
-
+/* ------------------------------------------Who we are?---------------------------------------- */
 .Who-we-are {
     color: var(--main-light, #2F353F);
     font-family: "Neue Machina";
@@ -213,6 +245,19 @@ h3{
     background: rgba(255, 255, 255, 0.30);
 }
 /* -----------------------------What our clients say about us?------------------------------- */
+.daniel-block{
+    width: 540px;
+    height: 603px;
+    border: 1px solid grey;
+    border-radius: 40px;
+}
+.Daniel-Smith{
+    display: flex;
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    align-items: center;
+}
 .button2{
     display: inline-flex;
     justify-content: center;
