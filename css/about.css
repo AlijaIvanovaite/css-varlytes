@@ -245,18 +245,69 @@ h3{
     background: rgba(255, 255, 255, 0.30);
 }
 /* -----------------------------What our clients say about us?------------------------------- */
-.daniel-block{
-    width: 540px;
-    height: 603px;
-    border: 1px solid grey;
-    border-radius: 40px;
+.feedbacks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Daniel-Smith{
+.Daniel-Smith,.Tom-Peters,.Ann-Hidlton{
     display: flex;
     width: 250px;
     height: 300px;
     flex-shrink: 0;
+    align-items:flex-start;
+    border: 1px solid grey;
+    border-radius: 40px;
+    flex-direction: column;
+    padding: 1%;
+}
+.position{
+    margin: 0px;
+    font-family: Gilroy-light;
+    font-style:normal;
+    font-weight: 400px;
+    line-height: 130%;
+    color: var(--main-white,rgba(47, 53, 63, 0.7));
+}
+.person{
+    margin-bottom: 0px;
+    font-family: Neue Machina-medium;
+    color: var(--main-blue,#2E2BD0);
+    font-size: 1rem;
+}
+.text2{
+    font-family: Gilroy-light;
+    color: rgba(47, 53, 63, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 150%
+}
+p.text22{
+    font-family: Gilroy-light;
+    color: rgba(47, 53, 63, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 150%
+}
+img.pfp{
+    position: relative;
+    height: 20%
+}
+.button1{
+    display: flex;
     align-items: center;
+    gap: 1rem;
+    font-family: Neue Machina-medium;
+    color: var(--main-blue, #2E2BD0);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #2E2BD0;
+    border-radius: 10px;
+    width: 90%;
+    height: 15%;
 }
 .button2{
     display: inline-flex;
