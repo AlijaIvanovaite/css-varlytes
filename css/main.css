@@ -394,7 +394,7 @@ main{
     line-height: normal;
 }
 
-.minimame{
+.mininame{
     color: var(--main-light, #2F353F);
     font-family: "Neue Machina";
     font-size: 30px;
